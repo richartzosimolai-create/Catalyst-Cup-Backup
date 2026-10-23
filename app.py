@@ -17,9 +17,9 @@ PIC_NUMBER = os.environ.get("PIC_NUMBER", "6281180895229")
 FONNTE_URL = "https://api.fonnte.com/send"
 
 ALLOWED_EXTENSIONS = {
-    "schoolLetter": {"pdf", "jpg", "jpeg", "png"},
-    "studentCard": {"pdf", "jpg", "jpeg", "png"},
-    "transfer": {"pdf", "jpg", "jpeg", "png"},
+    "schoolLetter": {"pdf",  "png"},
+    "studentCard": {"pdf",  "png"},
+    "transfer": {"pdf", "png"},
 }
 
 SUCCESS_PAGE = """
